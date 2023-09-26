@@ -584,7 +584,6 @@ p {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  padding-bottom: 20px;
 }
 
 .social-container2 {
@@ -733,4 +732,206 @@ p {
   line-height: 28px;
   width: 322px;
   margin: 25px;
+}
+
+.suscription {
+  width: 570px;
+  height: 86px;
+}
+
+.p-suscription {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+}
+
+.footer-suscription {
+  display: flex;
+}
+
+.email-suscription {
+  width: 358px;
+  height: 50px;
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(33, 150, 243, 0);
+  padding-left: 15px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 12px;
+}
+
+.email-suscription:hover,
+.email-suscription:focus {
+  border: 1px solid rgba(33, 150, 243, 1);
+}
+
+.button-suscription {
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  text-align: left;
+  padding-left: 40px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.button-suscription {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.icon-suscription {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 140px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.form-modal {
+  display: grid;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.titulo-form {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.labelconinput {
+  position: relative;
+}
+
+.label {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(117, 117, 117, 1);
+}
+
+.inputform {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  width: 448px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  display: block;
+  padding-left: 40px;
+}
+
+.textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  width: 448px;
+  height: 120px;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+}
+
+.textarea::placeholder {
+  color: rgba(117, 117, 117, 1);
+}
+
+.divcheckbox {
+  display: flex;
+  padding-left: 10px;
+}
+
+.inputcheck {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  border: 1px solid rgba(117, 117, 117, 1);
+  border-radius: 2px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.labelcheck {
+  width: 400.623px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  padding-left: 10px;
+}
+
+.modalbuttonsend {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonsendmodal {
+  background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button,
+.input,
+.optgroup,
+.select,
+.textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.iconmodal {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  display: block;
+  top: 25px;
+  left: 10px;
+  fill: rgba(33, 33, 33, 1);
+}
+
+.inputform:hover + .iconmodal,
+.inputform:focus + .iconmodal {
+  fill: #2196f3;
+}
+
+.inputform:hover,
+.inputform:focus {
+  border: 1px solid rgba(33, 150, 243, 1);
+}
+
+.textarea:hover,
+.textarea:focus {
+  border: 1px solid rgba(33, 150, 243, 1);
+}
+
+.footer-suscribe__button {
+  position: relative;
+  margin-left: 15px;
 }

@@ -65,6 +65,42 @@
     </section>
     <div class="modal">
       <div class="modal-container">
+        <form name="solicite nuestro servicio" class="form-modal">
+          <p class="titulo-form">Deje sus datos, nos contactaremos con usted</p>
+          <label class="labelconinput" for="input-name"> Nombre
+            <input class="inputform" type="text" name="nombre" id="input-name">
+            <svg class="iconmodal">
+              <use href="./images/icon-modal.svg#icon-person"></use>
+            </svg>
+          </label>
+
+          <label class="labelconinput" for="input-tel">Teléfono
+            <input class="inputform" type="tel" name="telefono" id="input-tel">
+            <svg class="iconmodal">
+              <use href="./images/icon-modal.svg#icon-phone"></use>
+            </svg>
+          </label>
+
+          <label class="labelconinput" for="input-email">E-mail
+            <input class="inputform" type="email" name="email" id="input-email">
+            <svg class="iconmodal">
+              <use href="./images/icon-modal.svg#icon-email"></use>
+            </svg>
+          </label>
+
+          <label for="comentarios"> Comentarios
+            <textarea class="textarea" placeholder="Introduzca el texto" name="comentarios" id="comentarios" cols="20"
+              rows="5"></textarea>
+          </label>
+          <div class="divcheckbox">
+            <input class="inputcheck" type="checkbox">
+            <label class="labelcheck"> Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+            </label>
+          </div>
+          <div class="modalbuttonsend">
+            <input class="buttonsendmodal" type="submit" value="Enviar">
+          </div>
+        </form>
         <button type="button" class="modal-close">
           <svg class="icon-close">
             <use href="./images/close-black.svg#icon-close-black"></use>
@@ -410,6 +446,22 @@
             </a>
           </li>
         </ul>
+      </div>
+      <div class="">
+        <form action="">
+          <div class="suscription">
+            <p class="p-suscription">SUSCRÍBASE AL BOLETÍN INFORMATIVO</p>
+            <div class="footer-suscription">
+              <input type="email" class="email-suscription" placeholder="Correo electrónico">
+              <div class="footer-suscribe__button">
+                <input type="submit" class="button-suscription" value="Suscríbase">
+                <svg class="icon-suscription">
+                  <use href="./images/symbol-send.svg#icon-enviar-cono"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </footer>
